@@ -55,7 +55,6 @@ setup(
     install_requires=[
         'numpy',
         'audiotsm2',
-        'opencv-python>=4.3',
         'youtube-dl',
         'requests',
         'av',

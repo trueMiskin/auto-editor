@@ -140,7 +140,7 @@ def main_options():
     ops += add_argument('--export_as_clip_sequence', action='store_true',
         help='export as multiple numbered media files.')
 
-    ops += add_argument('--render', default='auto', choices=['av', 'opencv', 'auto'],
+    ops += add_argument('--render', default='av', choices=['av'],
         help='choice which method to render video.')
     ops += add_argument('--scale', type=float_type, default=1,
         help='scale the output media file by a certian size (change resolution by a factor)',
